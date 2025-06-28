@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavour Fusion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- NavBar -->
+         <nav>
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="fieryspoon">
+                </div>
+                <h1>Flavour Fusion</h1>
+            </div>
+            <ul class="nav-sec">
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#menu-section">Dishes</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#testimonials-section">Ratings</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+             <button class="hamburger">☰</button>
+         </nav>
+
+         <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="left-part">
+                <div class="slogan">
+                    <h1>Taste</h1>
+                    <h2>"The Best"</h2>
+                </div>
+                <p> Savor every bite at Flavour Fusion - Taste the Best, Experience the Finest.</p>
+                <div class="cta1">
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="right-part">
+                <div class="circle">
+                    <div class="smallcircle">
+                        <img src="./images/backgroundfood.png" alt="grilled-dish">
+                    </div>
+                    <div class="smallcircle2">
+                        <img src="./images/backgroundfood2.png" alt="grilled-dish">
+                    </div>
+                    <div class="smallcircle3">
+                        <img src="./images/backgroundfood3.png" alt="grilled-dish">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us">
+            <div class="section-title">About Us</div>
+            <div class="main-content">
+                <div class="about-image">
+                    <img src="./images/about.png" alt="Flavour Fusion">
+                </div>
+                <div class="para-section">
+                    <h3>Flavour Fusion</h3>
+                    <p>Welcome to Flavour Fusion, a culinary destination where bold flavors meet artistic presentation. Our restaurant blends traditional Indian spices with global ingredients to create dishes that surprise and delight every palate. Whether you're dining in with family, grabbing a quick bite, or planning a cozy evening, Flavour Fusion offers a warm ambiance, top-notch service, and a menu that caters to all — including vegan and gluten-free options. At Flavour Fusion, we don't just serve food — we serve experiences.
+                    </p>
+                    <div class="points-grid">
+                        <div class="items-points">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <p>Real-time order tracking & updates</p>
+                        </div>
+                        <div class="items-points">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <p>Multiple payment options</p>
+                        </div>
+                        <div class="items-points">
+                            <i class="fa-solid fa-soap"></i>
+                            <p>Hygienic kitchen & quality ingredients</p>
+                        </div>
+                        <div class="items-points">
+                            <i class="fa-solid fa-user"></i>
+                            <p>Expert chefs & curated menus</p>
+                        </div>
+                        <div class="items-points">
+                            <i class="fa-solid fa-leaf"></i>
+                            <p>Vegan & gluten-free options available</p>
+                        </div>
+                        <div class="items-points">
+                            <i class="fa-solid fa-plate-wheat"></i>
+                            <p> Wide range of fusion cuisines</p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu-section">
+            <div class="section-title">Menu</div>
+            <div class="menu-container">
+                <input type="radio" id="veg" name="switch" checked>
+                <input type="radio" id="non-veg" name="switch">
+                <div class="toggle-options">
+                    <label for="veg" class="veg-label">
+                        <i class="fa-solid fa-leaf"></i>Veg Items
+                    </label>
+                    <label for="non-veg" class="non-veg-label">
+                        <i class="fa-solid fa-drumstick-bite"></i>Non-Veg Items
+                    </label>
+                    <div class="slider"></div>
+                </div>
+                <div class="menus">
+                    <div class="veg-section">
+                        <h2>Veg Items</h2>
+                        <div class="veg-items">
+                            <div class="veg-card card">
+                                <img src="images/Paneer Cheesy.png" alt="Cheese with Paneer">
+                                <h3>Paneer Cheesy</h3>
+                                <p class="desc">Soft Paneer cubes loaded with creamy melted cheese and mild spices.</p>
+                                <p class="money">$10<span class="strike">$17</span></p>
+                                <button class="menu-button">Add To Cart</button>
+                            </div>
+                            <div class="veg-card card">
+                                <img src="images/Mushroom.png" alt="Mushroom Masala Plate">
+                                <h3>Mushroom Masala</h3>
+                                <p class="desc">Classic mushroom cooked in rich, spiced tomato-onion gravy.</p>
+                                <p class="money">$9<span class="strike">$13</span></p>
+                                <button class="menu-button">Add To Cart</button>
+                            </div>
+                            <div class="veg-card card">
+                                <img src="images/Pakora.png" alt="Pakora or Pakoda">
+                                <h3>Pakora</h3>
+                                <p class="desc">Crunchy, deep-fried fritters made with spiced gram flour batter and veggies.</p>
+                                <p class="money">$2<span class="strike">$5</span></p>
+                                <button class="menu-button">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="non-veg-section">
+                        <h2>Non-Veg Items</h2>
+                        <div class="non-veg-items">
+                            <div class="non-veg-card card">
+                                <img src="./images/Chicken Nuggets.png" alt="Chicken Nuggets">
+                                <h3>Chicken Nuggets</h3>
+                                <p class="desc">Crispy golden bites of seasoned chicken, perfect for snacking.</p>
+                                <p class="money">$9<span>$13</span></p>
+                                <button class="menu-button">Add To Cart</button>
+                            </div>
+                            <div class="non-veg-card card">
+                                <img src="./images/Chicken Tandoori.png" alt="Chicken Tandoori">
+                                <h3>Chicken Tandoori</h3>
+                                <p class="desc">Juicy, smoky keg piece marinated in rich indian spices and grilled to perfection.</p>
+                                <p class="money">$10<span>$17</span></p>
+                                <button class="menu-button">Add To Cart</button>
+                            </div>
+                            <div class="non-veg-card card">
+                                <img src="./images/Grilled Fish.png" alt="Grilled Fish with a Plate">
+                                <h3>Grilled Fish</h3>
+                                <p class="desc">Tender fish fillets grilled with herbs and a touch of lemon zest.</p>
+                                <p class="money">$11<span>$10</span></p>
+                                <button class="menu-button">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services-section">
+            <div class="section-title">Services</div>
+            <div class="services-wrapper">
+                <div class="services-container">
+                    <div class="card-services">
+                        <img src="./images/Services 1.jpg" alt="Serving">
+                    </div>
+                    <div class="card-services">
+                        <img src="./images/Services 2.jpeg" alt="Serving">
+                    </div>
+                    <div class="card-services">
+                        <img src="./images/Services 3.jpeg" alt="Serving">
+                    </div>
+                    <div class="card-services">
+                        <img src="./images/Services 4.jpeg" alt="Serving">
+                    </div>
+                    <div class="card-services">
+                        <img src="./images/Services 5.jpeg" alt="Serving">
+                    </div>
+                    <div class="card-services">
+                        <img src="./images/Services 6.jpeg" alt="Serving">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials-section">
+            <div class="section-title">Reviews</div>
+            <div class="reviews-wrapper">
+                <div class="reviews-container">
+                    <div class="reviews-card">
+                        <div class="img-container">
+                            <img src="./images/ratings 1.jpg" alt="Customer 1">
+                        </div>
+                        <div class="name-stars">
+                            <h3>Dallace Pace</h3>
+                            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+                        </div>
+                        <hr />
+                        <p> Absolutely loved the vibe here! The ambiance was cozy, the staff was super friendly, and the food was out of this world.  Highly recommend the signature dish!</p>
+                    </div>
+                    <div class="reviews-card">
+                        <div class="img-container">
+                            <img src="./images/ratings 2.jpeg" alt="Customer 2">
+                        </div>
+                        <div class="name-stars">
+                            <h3>Mia Morales</h3>
+                            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+                        </div>
+                        <hr />
+                        <p>We dined here during our stay and it was unforgettable. A great mix of traditional and contemporary dishes. Don’t miss the chef's special dessert!</p>
+                    </div>
+                    <div class="reviews-card">
+                        <div class="img-container">
+                            <img src="./images/ratings 3.jpeg" alt="Customer 3">
+                        </div>
+                        <div class="name-stars">
+                            <h3>Amira Bhusan</h3>
+                            <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        </div>
+                        <hr />
+                        <p>An exquisite culinary journey. The plating, the textures, the flavors — everything was top-class. This place sets a high standard for hotel dining.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <div class="section-title">Get In Touch</div>
+            <div class="contact-container">
+                <div class="detail-container">
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>flavourfusion@gmail.com</p>
+                    </div>
+                    <div class="number">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>841-441-4490</p>
+                    </div>
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>New York, NY 10011, USA</p>
+                    </div>
+                </div>
+                <div class="detail-fillup">
+                    <div class="name">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="email-address">
+                        <label for="email-address">Email:</label>
+                        <input type="email" id="email-address" placeholder="Enter your Email">
+                    </div>
+                    <div class="subject">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" placeholder="Enter your Subject">
+                    </div>
+                    <div class="message">
+                        <label for="message">Message:</label>
+                        <textarea name="Message" id="message" placeholder="Enter your Message"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="icons-container">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="text-box">
+                <h2>Be with US</h2>
+                <p>Join for the latest Updates</p>
+                <div class="text-fill">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Send</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
